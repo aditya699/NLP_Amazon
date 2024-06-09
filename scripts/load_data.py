@@ -49,7 +49,7 @@ class LoadData:
             logging.info(f"Data loaded successfully from {self.file_path}.")
             logging.info(f"Data Shape: {data.shape}")
             logging.info(f"Data Preview:\n{data.head()}")
-            return data,data_analyze,data_batch
+            return data,data_analyze
         except Exception as e:
             logging.error(f"An error occurred while reading the file: {e}")
             raise
