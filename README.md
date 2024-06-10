@@ -6,3 +6,5 @@ The goal is to develop a machine learning model that can predict the length dime
 You will have access to the product title, description, bullet points, product type ID, and product length for 2.2 million products to train and test your submissions. Note that there is some noise in the data.
 
 You are required to build a machine learning model that can predict product length from catalog metadata.
+ 
+WIP..
