@@ -118,9 +118,9 @@ class GetSummary:
 
 # Example usage
 if __name__ == "__main__":
-    summarizer = GetSummary('data_staging_batch.csv')  # Replace with your file path
+    summarizer = GetSummary('Data/Staging/sampled_train_data.csv')  # Replace with your file path
     summarizer.load_data()
     summarizer.summarize_texts()
-    summarizer.save_data('output_data_with_summaries.csv')  # Replace with desired output file path
+    summarizer.save_data('Data/Post-Staging/sampled_summary_train_data.csv')  # Replace with desired output file path
     progress = summarizer.get_progress()
     print("Task progress:", progress)
