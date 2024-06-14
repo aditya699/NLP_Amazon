@@ -7,4 +7,4 @@ You will have access to the product title, description, bullet points, product t
 
 You are required to build a machine learning model that can predict product length from catalog metadata.
  
-WIP..
+This project is being put on hold due to limited compute , will upload a notebook for High Level solution proposal
